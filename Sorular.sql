@@ -33,7 +33,7 @@ select sum(amount) as sum_amount from payment;
 
 --xii. Show the maximum and minimum amount in the payment table.
 SELECT MAX(amount) AS max_amount, MIN(amount) AS min_amount FROM payment;
-
+---------------------------------------------------------------------------------
 select * from payment;
 
 select * from payment where amount=0.00;
